@@ -16,13 +16,10 @@ while ret:
 
     if ret:
 
-        # detect objects
-        # track objects
+        # detect & track objects
         results = model.track(frame, persist=True)
 
-        # plot results
-        # cv2.rectangle
-        # cv2.putText
+        # plot results -> cv2.rectangle & cv2.putText
         frame_ = results[0].plot()
 
         # visualize
