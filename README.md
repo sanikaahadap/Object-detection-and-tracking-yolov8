@@ -1,1 +1,1 @@
-# Object-detection-and-trcaking-yolov8
+# Object-detection-and-tracking-yolov8
